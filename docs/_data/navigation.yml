@@ -133,3 +133,11 @@ sidebar-sample:
         url: /
       - title: "Child Page D2"
         url: /
+  - title: "카테고리"
+    children:
+      - title: "블로그"
+        url: "/blog"
+      - title: "카테고리B"
+        url: "/CategoryB"
+      - title: "카테고리C"
+        url: "/CategoryC"
