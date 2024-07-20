@@ -3,14 +3,23 @@ main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 #사이드 바에 카테고리 추가를 위한 작업 
-docs:
-  - title: Coding Test
-    children: 
-      - title: "Programmers"
-        url: /categories/programmers
-        children:
-          -title: "기초문제"
-           url: /categories/programmers/basic
+# docs:
+#   - title: Coding Test
+#     children: 
+#       - title: "Programmers"
+#         url: /categories/programmers
+#         children:
+#           -title: "기초문제"
+#            url: /categories/programmers/basic
+  docs:
+    - title: Book Study
+      children:
+        - title: "임베디드 C프로그래밍 최적화"
+          url: /categories/embedded_c_optimization
+    - title: 삽질일기
+      children:
+        - title: "라즈베리파이"
+          url: /categories/raspberry_pi
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
