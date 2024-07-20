@@ -2,8 +2,15 @@
 main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "카테고리"
-    url: https://ciel10/github.io/categories/
+#사이드 바에 카테고리 추가를 위한 작업 
+docs:
+  - title: Coding Test
+    children: 
+      - title: "Programmers"
+        url: /categories/programmers
+        children:
+          -title: "기초문제"
+           url: /categories/programmers/basic
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
